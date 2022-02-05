@@ -198,7 +198,9 @@ document.getElementById("content_wrapper").addEventListener('keyup', ()=>{
     email = document.getElementById("email_validate").style.color
     phone = document.getElementById("phone_validate").style.color
     pswd = document.getElementById("pswd_validate").style.color
-    if((email == 'green') && (phone == 'green') && (pswd == 'green') && (uname.value.trim() != "") && (branch.value.trim() != "") && (college.value.trim() != ""))
+    if((email == 'green') && (phone == 'green') && (pswd == 'green') && 
+        (uname.value.trim() != "") && (branch.value.trim() != "") && (college.value.trim() != "") &&
+        (username.value.trim() != "") && (age.value.trim() != "") && (state.value.trim() != ""))
     {
         document.getElementById("submit").classList.remove("disabled")
     }
