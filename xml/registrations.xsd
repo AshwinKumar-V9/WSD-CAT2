@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="CHRIST" type="CHRIST"></xs:element>
+    <xs:complexType name="CHRIST">
+        <xs:sequence>
+            <xs:element name="COMPUTER-SCIENCE" type="COMPUTER-SCIENCE" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="COMPUTER-SCIENCE">
+        <xs:sequence>
+            <xs:element name="STU-NAME" type="xs:string"></xs:element>
+            <xs:element name="STU-UNIVERSITY" type="xs:string"></xs:element>
+            <xs:element name="STU-PHONE" type="xs:integer"></xs:element>
+            <xs:element name="STU-EMAIL" type="xs:string"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
